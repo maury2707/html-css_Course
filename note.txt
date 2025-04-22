@@ -1,0 +1,61 @@
+This are my personal notes for the Course "Curso definitivo de HTML Y CSS".
+
+* The course includes a lot of usefull information since the begining and it is very clear when it comes to the frameworks, technologies, how does this elements works at a high level and
+bring clear explenation from the same ones.
+It is very usefull when it comes to look at a north about what to study how the Web development is constructed, Im gonna go back to this first clases eventually if needed.
+
+First Topic.
+* Web Page Anatomy.
+    * Header 
+        Within the header we can find:
+            * Logo.
+            * Navigation.
+    * Main 
+        content / SideBar (Optiona & editable).
+        This is the general content that we find in a web Page. 
+    * Footer.
+        Here is the lowest part of the Wen Page.
+
+* index.html
+    The index.htm is the landing page, is the first page that the browser will consider.
+    
+    *Anatomy.
+        The anatomy of the HTMLs is, in general constructed by labels...
+
+        * <!DOCTYPE html> // This line is what address to the Browser that everything
+        after that line will be HTML 5.
+        
+        * <html lang="es"> 
+            CONTENT 
+          </html> // This will be the parent container, absolutely
+        everything will be inside of this label.
+        
+        * <head>
+            CONTENT
+        </head> // In the head (Dont get confused with the header of a web page) you
+        will add everything that is important to get loaded for the proyect, but will
+        not be visual for the end user (Dependencies, founts, css, founts, etc...).
+
+        
+        * <body>
+            Here is everything that is visual or interactable for the en user.
+        </body>
+* labels.
+    <meta charset="UTF-8" /> Meta labels are lables that you dont really need to
+    close like the rest, in this case, we add an atribute called "charset="UTF-8"", 
+    which indicates to the browser to understand special characters like "ñ", "´", etc...
+        * another atribute is "name="description" content="this is the description of 
+        the web page when the user looks for it in the browser"".
+        * name="robots" content="index,follow"
+        * An important atribute is the <title> This is the name of the page <title/>
+            This is the name that will be shown in the tab at the top of the browser.
+        *  name="viewport" content="width=device-width, inictial-scale=1.0"
+            This will fit the sice of the page to the respective device is being used.
+    <link rel="stylesheet" href="style.css">
+
+    For the Body, we have 2 types of labels; Container lables & Content Lables.
+    * The Container labels will have more labels within.
+        This helps to keep the structure of the web page. 
+    * The Content will have text, multimedia or any reder content.
+    
+    
