@@ -12,34 +12,82 @@
     <body>
         <header>
             <nav>
-
+                <ul class="landing-page-nav">
+                    <li class="landing-page-nav__item"><a href="#">Home</a></li>
+                    <li class="landing-page-nav__item"><a href="#">Desserts</a></li>
+                    <li class="landing-page-nav__item"><a href="modelo_de_caja.html">Modelo de caja</a></li>
+                </ul>
             </nav>     
         </header>
         <main>
-            <h1>This is the first prototype</h1>
-            <p>This is a paragraph</p>
+            <h1>Greetings! Welcome to Navalu!</h1>
+            <p >Please let us know who you are!</p>
+            <p class="paragraph">Please let us know who you are!</p>
+            <p id="welcome">Please let us know who you are!</p>
+            <form action="">
+                <label for="name">
+                    <span>What is your name?</span>
+                    <input type="text" id="name" placeholder="Your Name" name="name" autocomplete="name">
+                </label>
+                <label for="date">
+                    <span>When would you like to visit us?</span>
+                    <input type="datetime-local" id="date" name="date">
+                </label>
+                <label for="time">
+                    <span>What time would you like to visit us?</span>
+                    <input type="time" id="time" name="time" value="Send">
+                </label>
+                <input type="submit">
+            </form>
+            <h4>These are some Desserts</h4>
             <section>
-                <article>
-                    <a href="#"> This is a link</a>
-                </article>
+                <select name="desserts" id="">
+                    <option value="Cupcake">Cupcake</option>
+                    <option value="Apple Pie">Apple Pie</option>
+                    <option value="Cheesecake">Cheesecake</option>
+                </select>
+                <input list="desserts">
+                <datalist id="desserts">
+                    <option value="Cupcake"></option>
+                    <option value="Apple Pie"></option>
+                    <option value="Cheesecake"></option>
+                </datalist>
+                <button>
+                    Send
+                </button>
+                <ul>
+                    <li>
+                        <a href="#"> Cupcake. </a><br>
+                        <img src="images/cupcake.gif" class="image"/> 
+                        <video controls preload="auto" >
+                            <source src="images/video_cupcake.mp4"/>
+                        </video>
+                    </li>
+                    <li>
+                        <a href="#"> Cheesecake.</a>
+                        <figure>
+                            <img class="image"
+                                src="images/cheesecake.jpg" 
+                                alt="This is a Cheesecake"
+                            />
+                            <figcaption>
+                                This is a Cheesecake
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://i0.wp.com/www.rejinilla.com/wp-content/uploads/2014/05/pay-de-manzana-19.jpg">
+                                Apple Pay
+                            </a><br>
+                            <img  class="image"
+                                src="images/Apple Pie.jpg" 
+                                alt="This is an Apple Pie"
+                            />
+                        </figure>
+                    </li>
+                </ul>
             </section>
-            <ul>
-                <li>
-                    <a href="#"> Cupcake. </a>
-                </li>
-                <li>
-                    <a href="#"> Cheesecake.</a>
-                </li>
-                <li>
-                    <a href="https://i0.wp.com/www.rejinilla.com/wp-content/uploads/2014/05/pay-de-manzana-19.jpg">
-                        Apple Pay
-                    </a>
-                </li>
-            </ul>
-            
-            <ol>
-
-            </ol>
         </main>
         <footer>
 

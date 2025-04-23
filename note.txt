@@ -58,4 +58,12 @@ First Topic.
         This helps to keep the structure of the web page. 
     * The Content will have text, multimedia or any reder content.
     
+    /*
+    Combinators CSS
+    For css the combinators are the next
     
+    label + label2{}           For this case, the statements will affect the labels after the "+", in this case, is label2 that, in html, are located right after label.
+    label ~ label2{}           For this case, the statements will affect the labels after the "~", in this case, is label2 that, in html, has label as genera sibling - This applies at the same jerarchy level.
+    label > label2{}           Same as above, but in this case, we are looking for inner lables within label, in this case, will be applied to label2 within lable.
+    label label2{}             
+*/
